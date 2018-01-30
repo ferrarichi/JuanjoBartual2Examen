@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_Fecha"
+            android:icon="@android:drawable/ic_menu_my_calendar"
+            android:title="Elige una fecha" />
+        <item
+            android:id="@+id/nav_informacion"
+            android:icon="@android:drawable/ic_menu_info_details"
+            android:title="Acerca de " />
+    </group>
+
+</menu>
